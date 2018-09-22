@@ -1,0 +1,28 @@
+[begin] (fluxbox)
+        [exec] (konsole) {/usr/bin/konsole} </usr/share/pixmaps/gnome-terminal.xpm>
+        [exec] (emacs 25) {/usr/local/bin/emacs-25.1} <>
+        [exec] (dolphin) {/usr/bin/dolphin} <>
+        [exec] (feuerfuchs) {/usr/bin/firefox} </usr/share/pixmaps/firefox.png>
+        [exec] (Eclipse-Neon)   {/home/christian/eclipse/java-neon/eclipse/eclipse}</usr/share/pixmaps/eclipse.xpm>
+        [exec] (cadence){/usr/bin//cadence}
+        [exec] (virtualbox)   { virtualbox } </usr/share/pixmaps/virtualbox.png>
+        [exec] (calibre)   {/usr/bin/calibre}</usr/share/pixmaps/calibre-gui.png>
+        [exec] (suspend) {x-terminal-emulator -e sudo pmi action suspend} <>
+        [exec] (thunderbird)(wine /D/PortableApps/ThunderbirdPortable/ThunderbirdPortable.exe  >/dev/null 2>&1) <>
+        [exec] (suspend) {pmi action suspend} <>
+ [submenu] (Tools) {}
+        [exec] (GNOME system monitor) {/usr/bin/gnome-system-monitor} <>
+        [exec] (Pstree) { x-terminal-emulator -T "Pstree" -e /usr/bin/pstree.x11} </usr/share/pixmaps/pstree16.xpm>
+        [exec] (mc) { x-terminal-emulator -T "mc" -e /usr/bin/mc} </usr/share/pixmaps/mc.xpm>   
+        [exec] (Xkill) {xkill} <>
+        [exec] (The GIMP) {/usr/bin/gimp} </usr/share/pixmaps/gimp.xpm>
+        [exec] (SQLite database browser) {/usr/bin/sqlitebrowser} </usr/share/pixmaps/sqlitebrowser.xpm>
+        [exec] (Praat) {/usr/bin/praat} </usr/share/pixmaps/praat.xpm>
+        [exec] (TeXconfig) { x-terminal-emulator -T "TeXconfig" -e /usr/bin/texconfig} <>
+        [exec] (Synaptic Package Manager) {x-terminal-emulator -e synaptic-pkexec} </usr/share/synaptic/pixmaps/synaptic_32x32.xpm>
+        [exec] (Bash) { x-terminal-emulator -T "Bash" -e /bin/bash --login} <>
+        [exec] (Gnome Terminal) {/usr/bin/gnome-terminal} </usr/share/pixmaps/gnome-terminal.xpm>
+  [end]
+[include] (/etc/X11/fluxbox/fluxbox-menu)
+        [exec] (ausschalt){x-terminal-emulator -e sudo shutdown  -P now}
+[end]

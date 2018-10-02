@@ -1,6 +1,7 @@
 [begin] (fluxbox)
-        [exec] (konsole) {/usr/bin/konsole} </usr/share/pixmaps/gnome-terminal.xpm>
-        [exec] (emacs 25) {/usr/local/bin/emacs-25.1} <>
+        [exec] (terminator) {/usr/bin/terminator} </usr/share/pixmaps/terminator.png> 
+        [exec] (konsole) {/usr/bin/konsole} </usr/share/pixmaps/terminator.png>
+        [exec] (emacs 25) {/usr/bin/emacs25-x} <>
         [exec] (dolphin) {/usr/bin/dolphin} <>
         [exec] (feuerfuchs) {/usr/bin/firefox} </usr/share/pixmaps/firefox.png>
 	[exec] (jee-Oxygen) {/home/christian/eclipse/jee-oxygen/eclipse/eclipse}</usr/share/pixmaps/eclipse.xpm>

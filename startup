@@ -20,6 +20,8 @@ xmodmap "/home/christian/.Xmodmap"
 # idesk &
 nm-applet &
 gkrellm &
+/usr/lib/notification-daemon/notification-daemon & 
+
 
 
 

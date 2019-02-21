@@ -2,17 +2,15 @@
         [exec] (terminator) {/usr/bin/terminator} </usr/share/pixmaps/terminator.png> 
         [exec] (konsole) {/usr/bin/konsole} </usr/share/pixmaps/terminator.png>
         [exec] (emacs 25) {/usr/bin/emacs25-x} <>
-        [exec] (dolphin) {/usr/bin/dolphin} <>
-        [exec] (feuerfuchs) {/usr/bin/firefox} </usr/share/pixmaps/firefox.png>
-	[exec] (jee-Oxygen) {/home/christian/eclipse/jee-oxygen/eclipse/eclipse}</usr/share/pixmaps/eclipse.xpm>
-	[exec] (Eclipse-Neon) {/home/christian/eclipse/java-neon/eclipse/eclipse}</usr/share/pixmaps/eclipse.xpm>
+        [exec] (dolphin) {XDG_CURRENT_DESKTOP=kde /usr/bin/dolphin} <>
+        [exec] (firefox) {/usr/bin/firefox} </usr/share/pixmaps/firefox.png>
 	[exec] (cadence){/usr/bin//cadence}
         [exec] (mediathekview)   { /usr/bin//mediathekview } </usr/share/pixmaps/MediathekView.xpm>
         [exec] (virtualbox)   { virtualbox } </usr/share/pixmaps/virtualbox.png>
-        [exec] (calibre)   {/usr/bin/calibre}</usr/share/pixmaps/calibre-gui.png>
+        [exec] (calibre){/usr/bin/calibre}</usr/share/calibre/images/apple-touch-icon.png>      
+        re)   {/usr/bin/calibre}</usr/share/pixmaps/calibre-gui.png>
         [exec] (suspend) {x-terminal-emulator -e sudo pmi action suspend} <>
         [exec] (thunderbird)(wine /D/PortableApps/ThunderbirdPortable/ThunderbirdPortable.exe  >/dev/null 2>&1) <>
-        [exec] (suspend) {pmi action suspend} <>
  [submenu] (Tools) {}
         [exec] (GNOME system monitor) {/usr/bin/gnome-system-monitor} <>
         [exec] (Pstree) { x-terminal-emulator -T "Pstree" -e /usr/bin/pstree.x11} </usr/share/pixmaps/pstree16.xpm>

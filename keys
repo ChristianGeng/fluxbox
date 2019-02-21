@@ -82,11 +82,12 @@ Mod1 space :WindowMenu
 
 
 # Example control alt f4 konsole
-Control Mod1 k : Exec konsole
-Control Mod1 d : Exec dolphin
+Control Mod1 k : Exec Control
+Control Mod1 t : Exec terminator
+Control Mod1 d : Exec XDG_CURRENT_DESKTOP=kde /usr/bin/dolphin
 Control Mod1 e : Exec emacs
 # lock screen
-Mod4 l : Exec pmi action suspend
+Mod4 l : Exec systemctl suspend
 
 
 # change to previous/next workspace
@@ -102,18 +103,18 @@ Control Mod4 Left :TakeToPrevWorkspace
 Control Mod4 Right :TakeToNextWorkspace
 
 # change to a specific workspace
-Control F1 :Workspace 1
-Control F2 :Workspace 2
-Control F3 :Workspace 3
-Control F4 :Workspace 4
-Control F5 :Workspace 5
-Control F6 :Workspace 6
-Control F7 :Workspace 7
-Control F8 :Workspace 8
-Control F9 :Workspace 9
-Control F10 :Workspace 10
+# Control F1 :Workspace 1
+# Control F2 :Workspace 2
+# Control F3 :Workspace 3
+# Control F4 :Workspace 4
+# Control F5 :Workspace 5
+# Control F6 :Workspace 6
+# Control F7 :Workspace 7
+# Control F8 :Workspace 8
+# Control F9 :Workspace 9
+# Control F10 :Workspace 10
 # Control F11 :Workspace 11
-Control F12 :Workspace 12
+# Control F12 :Workspace 12
 
 
 

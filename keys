@@ -88,7 +88,7 @@ Control Mod1 d : Exec XDG_CURRENT_DESKTOP=kde /usr/bin/dolphin
 Control Mod1 e : Exec emacs
 # lock screen
 Mod4 l : Exec systemctl suspend
-
+Mod4 s : Exec gnome-screenshot -a -i
 
 # change to previous/next workspace
 Control Mod1 Left :PrevWorkspace

@@ -12,4 +12,5 @@
   [extramenus]
   [separator]
   [close]
+  [exec] (screenshot-area) {gnome-screenshot -a -i} <>
 [end]

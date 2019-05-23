@@ -7,9 +7,10 @@
 	[exec] (cadence){/usr/bin//cadence}
         [exec] (mediathekview)   { /usr/bin//mediathekview } </usr/share/pixmaps/MediathekView.xpm>
         [exec] (virtualbox)   { virtualbox } </usr/share/pixmaps/virtualbox.png>
-        [exec] (calibre){/usr/bin/calibre}</usr/share/calibre/images/apple-touch-icon.png>      
-        re)   {/usr/bin/calibre}</usr/share/pixmaps/calibre-gui.png>
+        [exec] (calibre){/usr/bin/calibre}</usr/share/calibre/images/apple-touch-icon.png>
+        [exec] (calibre){/usr/bin/calibre}</usr/share/pixmaps/calibre-gui.png>
         [exec] (suspend) {x-terminal-emulator -e sudo pmi action suspend} <>
+        [exec] (screenshot-area) {gnome-screenshot -a -i} <>
         [exec] (thunderbird)(wine /D/PortableApps/ThunderbirdPortable/ThunderbirdPortable.exe  >/dev/null 2>&1) <>
  [submenu] (Tools) {}
         [exec] (GNOME system monitor) {/usr/bin/gnome-system-monitor} <>
@@ -27,3 +28,6 @@
 [include] (/etc/X11/fluxbox/fluxbox-menu)
         [exec] (ausschalt){x-terminal-emulator -e sudo shutdown  -P now}
 [end]
+
+
+        
